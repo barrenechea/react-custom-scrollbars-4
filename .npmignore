@@ -4,3 +4,14 @@ src
 test
 examples
 coverage
+.github
+docs
+.babelrc
+.eslint*
+.gitignore
+.nvmrc
+karma.conf.js
+prepublish.js
+test.js
+webpack.config.js
+CODE_OF_CONDUCT.md
