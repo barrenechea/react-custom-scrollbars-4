@@ -1,5 +1,5 @@
 {
-  "name": "react-custom-scrollbars-2",
+  "name": "react-custom-scrollbars-4",
   "version": "4.3.0",
   "description": "React scrollbars component",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//RobPethick/react-custom-scrollbars-2.git"
+    "url": "https://github.com/barrenechea/react-custom-scrollbars-4.git"
   },
   "keywords": [
     "scroll",
@@ -27,12 +27,12 @@
     "react",
     "custom"
   ],
-  "author": "Rob Pethick",
+  "author": "Sebastian Barrenechea",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com//RobPethick/react-custom-scrollbars-2/issues"
+    "url": "https://github.com/barrenechea/react-custom-scrollbars-4/issues"
   },
-  "homepage": "https://github.com//RobPethick/react-custom-scrollbars-2",
+  "homepage": "https://github.com/barrenechea/react-custom-scrollbars-4",
   "devDependencies": {
     "babel-cli": "^6.2.0",
     "babel-core": "^6.2.1",

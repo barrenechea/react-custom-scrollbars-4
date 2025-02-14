@@ -1,5 +1,5 @@
 {
-  "name": "react-custom-scrollbars-2-example",
+  "name": "react-custom-scrollbars-4-example",
   "version": "0.1.0",
   "description": "Simple example",
   "main": "server.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RobPethick/react-custom-scrollbars-2.git"
+    "url": "https://github.com/barrenechea/react-custom-scrollbars-4.git"
   },
   "keywords": [
     "scroll",
@@ -20,9 +20,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RobPethick/react-custom-scrollbars-2/issues"
+    "url": "https://github.com/barrenechea/react-custom-scrollbars-4/issues"
   },
-  "homepage": "https://github.com/RobPethick/react-custom-scrollbars-2",
+  "homepage": "https://github.com/barrenechea/react-custom-scrollbars-4",
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
     "babel-core": "^6.2.1",
