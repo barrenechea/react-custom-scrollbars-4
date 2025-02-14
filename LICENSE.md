@@ -1,7 +1,9 @@
 The MIT License (MIT)
 
 Copyright (c) 2015-2017 Malte Wessel
+
 Copyright (c) 2020-2022 Robert Pethick
+
 Copyright (c) 2025 Sebastian Barrenechea
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

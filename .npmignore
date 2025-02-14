@@ -5,7 +5,6 @@ test
 examples
 coverage
 .github
-docs
 .babelrc
 .eslint*
 .gitignore

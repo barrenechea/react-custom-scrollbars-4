@@ -1,20 +1,20 @@
 # react-custom-scrollbars-4
 
-[![npm](https://img.shields.io/badge/npm-react--custom--scrollbars--4-brightgreen.svg?style=flat-square)]()
+[![npm](https://img.shields.io/badge/npm-react--custom--scrollbars--4-brightgreen.svg?style=flat-square)](https://www.npmjs.com/package/react-custom-scrollbars-4)
 [![npm version](https://img.shields.io/npm/v/react-custom-scrollbars-4.svg?style=flat-square)](https://www.npmjs.com/package/react-custom-scrollbars-4)
 [![npm downloads](https://img.shields.io/npm/dm/react-custom-scrollbars-4.svg?style=flat-square)](https://www.npmjs.com/package/react-custom-scrollbars-4)
 
 - frictionless native browser scrolling
 - native scrollbars for mobile devices
-- [fully customizable](https://github.com/barrenechea/react-custom-scrollbars-4/blob/master/docs/customization.md)
-- [auto hide](https://github.com/barrenechea/react-custom-scrollbars-4/blob/master/docs/usage.md#auto-hide)
-- [auto height](https://github.com/barrenechea/react-custom-scrollbars-4/blob/master/docs/usage.md#auto-height)
-- [universal](https://github.com/barrenechea/react-custom-scrollbars-4/blob/master/docs/usage.md#universal-rendering) (runs on client & server)
+- [fully customizable](https://github.com/barrenechea/react-custom-scrollbars-4/wiki/Customization)
+- [auto hide](https://github.com/barrenechea/react-custom-scrollbars-4/wiki/Usage#auto-hide)
+- [auto height](https://github.com/barrenechea/react-custom-scrollbars-4/wiki/Usage#auto-height)
+- [universal](https://github.com/barrenechea/react-custom-scrollbars-4/wiki/Usage#universal-rendering) (runs on client & server)
 - `requestAnimationFrame` for 60fps
 - no extra stylesheets
 - well tested, 100% code coverage
 
-**[Demos](https://robpethick.github.io/react-custom-scrollbars-2/) · [Documentation](https://github.com/barrenechea/react-custom-scrollbars-4/tree/master/docs)**
+**[Demos](https://robpethick.github.io/react-custom-scrollbars-2/) · [Wiki](https://github.com/barrenechea/react-custom-scrollbars-4/wiki)**
 
 ## Quick note
 
@@ -23,34 +23,32 @@ This repo is due to both the original [`react-custom-scrollbars`](https://www.np
 ## Installation
 
 ```bash
-npm install react-custom-scrollbars-4 --save
+npm install react-custom-scrollbars-4
 ```
 
-This assumes that you’re using [npm](http://npmjs.com/) package manager with a module bundler like [Webpack](http://webpack.github.io) or [Browserify](http://browserify.org/) to consume [CommonJS modules](http://webpack.github.io/docs/commonjs.html).
+This assumes that you’re using [npm](https://www.npmjs.com) package manager with a module bundler like [Vite](https://vite.dev) or [Webpack](https://webpack.js.org) to consume [CommonJS modules](https://webpack.js.org/api/module-methods/#commonjs).
 
-If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/react-custom-scrollbars-4@4.5.1/dist/react-custom-scrollbars.js). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to `react-custom-scrollbars-4` are only available on [npm](http://npmjs.com/).
+If you don’t yet use [npm](https://www.npmjs.com) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/react-custom-scrollbars-4@4.5.1/dist/react-custom-scrollbars.js). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to `react-custom-scrollbars-4` are only available on [npm](https://www.npmjs.com).
 
 ## Usage
 
-This is the minimal configuration. [Check out the Documentation for advanced usage](https://github.com/barrenechea/react-custom-scrollbars-4/tree/master/docs).
+This is the minimal configuration. [Check out the Wiki for advanced usage](https://github.com/barrenechea/react-custom-scrollbars-4/wiki).
 
-```javascript
+```tsx
 import { Scrollbars } from "react-custom-scrollbars-4";
 
-class App extends Component {
-  render() {
-    return (
-      <Scrollbars style={{ width: 500, height: 300 }}>
-        <p>Some great content...</p>
-      </Scrollbars>
-    );
-  }
-}
+const App = () => {
+  return (
+    <Scrollbars style={{ width: 500, height: 300 }}>
+      <p>Some great content...</p>
+    </Scrollbars>
+  );
+};
 ```
 
 The `<Scrollbars>` component is completely customizable. Check out the following code:
 
-```javascript
+```tsx
 import { Scrollbars } from 'react-custom-scrollbars-4';
 
 class CustomScrollbars extends Component {
@@ -81,7 +79,7 @@ class CustomScrollbars extends Component {
 }
 ```
 
-All properties are documented in the [API docs](https://github.com/barrenechea/react-custom-scrollbars-4/blob/master/docs/API.md)
+All properties are documented in the [Wiki](https://github.com/barrenechea/react-custom-scrollbars-4/wiki/API)
 
 ## Examples
 
