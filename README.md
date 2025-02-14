@@ -18,7 +18,7 @@
 
 ## Quick note
 
-This repo is due to the original (fantastic) [`react-custom-scrollbars`](https://www.npmjs.com/package/react-custom-scrollbars) package going a little stale and we needed a handful of bug fixes which will be managed here.
+This repo is due to both the original [`react-custom-scrollbars`](https://www.npmjs.com/package/react-custom-scrollbars) and [`react-custom-scrollbars-2`](https://www.npmjs.com/package/react-custom-scrollbars-2) packages being stale. Initially to add React 19 support, this fork aims to modernize it in every way, while keeping the original APIs intact.
 
 ## Installation
 
