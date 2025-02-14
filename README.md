@@ -28,7 +28,7 @@ npm install react-custom-scrollbars-4 --save
 
 This assumes that you’re using [npm](http://npmjs.com/) package manager with a module bundler like [Webpack](http://webpack.github.io) or [Browserify](http://browserify.org/) to consume [CommonJS modules](http://webpack.github.io/docs/commonjs.html).
 
-If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/react-custom-scrollbars-4@4.3.0/dist/react-custom-scrollbars.js). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to `react-custom-scrollbars-4` are only available on [npm](http://npmjs.com/).
+If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/react-custom-scrollbars-4@4.5.1/dist/react-custom-scrollbars.js). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to `react-custom-scrollbars-4` are only available on [npm](http://npmjs.com/).
 
 ## Usage
 
