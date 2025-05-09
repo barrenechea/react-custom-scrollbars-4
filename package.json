@@ -13,7 +13,7 @@
     "test": "cross-env NODE_ENV=test karma start",
     "test:watch": "cross-env NODE_ENV=test karma start --auto-watch --no-single-run",
     "test:cov": "cross-env NODE_ENV=test COVERAGE=true karma start --single-run",
-    "prepublishOnly": "npm run lint && npm run clean && npm run build && npm run build:umd && npm run build:umd:min && node ./prepublish"
+    "prepublishOnly": "npm run lint && npm run clean && npm run build && npm run build:umd && npm run build:umd:min"
   },
   "repository": {
     "type": "git",
@@ -44,14 +44,12 @@
     "babel-register": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "cross-env": "^7.0.3",
-    "es3ify": "^0.2.2",
     "eslint": "^2.9.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^1.5.5",
     "eslint-plugin-react": "^5.2.2",
     "expect": "^1.20.2",
-    "glob": "^7.0.0",
     "isparta-loader": "^2.0.0",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^1.0.1",
@@ -70,8 +68,8 @@
     "webpack-dev-server": "^1.16.5"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "dependencies": {
     "dom-css": "^2.1.0",
